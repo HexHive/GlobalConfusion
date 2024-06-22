@@ -1,0 +1,205 @@
+ta_keyin| Exception: State:
+ta_keyin|  r0=0000dead  r1=00000001  r2=00000000  r3=00000000
+ta_keyin|  r4=deadbeef  r5=deadbeef  r6=deadbeef  r7=deadbeef
+ta_keyin|  r8=deadbeef  r9=deadbeef r10=deadbeef r11=80007ff4
+ta_keyin| r12=0026d3c4  sp=80007ee8  lr=0025e1e4  pc=deadbeee
+ta_keyin| psr=60000030 err=00010000 pfa=deadbeee
+ta_keyin| Codes_around PC[0xdeadbece,0xdeadbf0e]:
+ta_keyin| current task:
+ta_keyin| [ 0] 00000028 deadbece 00000000 00000000
+ta_keyin| [ 4] deadbeee 80007ee8 deadbf0e 00195f58
+ta_keyin| [ 8] 00195e0c 001960b8 deadbece 00195e7c
+ta_keyin| [12] 0026d3c4
+ta_keyin| Codes around PC[0x1951c0,0x195200]:
+ta_keyin| 0x001951c0 : 0xe59f9284
+ta_keyin| 0x001951c4 : 0xe1a0100a
+ta_keyin| 0x001951c8 : 0xe59f8280
+ta_keyin| 0x001951cc : 0xe59f7280
+ta_keyin| 0x001951d0 : 0xe08f9009
+ta_keyin| 0x001951d4 : 0xe08f8008
+ta_keyin| 0x001951d8 : 0xe08f7007
+ta_keyin| 0x001951dc : 0xe1510004
+ta_keyin| 0x001951e0 : 0xe49a2004    <-PC
+ta_keyin| 0x001951e4 : 0xe1a00007
+ta_keyin| 0x001951e8 : 0x11a03009
+ta_keyin| 0x001951ec : 0x01a03008
+ta_keyin| 0x001951f0 : 0xebfffdcd
+ta_keyin| 0x001951f4 : 0xe156000a
+ta_keyin| 0x001951f8 : 0xe1a0100a
+ta_keyin| 0x001951fc : 0x8afffff6
+ta_keyin| Region maping: limits [0-bfffffff]
+ta_keyin|  Area map:
+ta_keyin|   [         0-       fff] -> flags=0
+ta_keyin|   [     1c000-     28fff] -> flags=0
+ta_keyin|   [     29000-     32fff] -> flags=0
+ta_keyin|   [     35000-     48fff] -> flags=0
+ta_keyin|   [     49000-     57fff] -> flags=0
+ta_keyin|   [     58000-     61fff] -> flags=0
+ta_keyin|   [     62000-     6cfff] -> flags=0
+ta_keyin|   [     6d000-     7ffff] -> flags=0
+ta_keyin|   [     80000-     89fff] -> flags=0
+ta_keyin|   [     8a000-     94fff] -> flags=0
+ta_keyin|   [     95000-     9efff] -> flags=0
+ta_keyin|   [     9f000-     acfff] -> flags=0
+ta_keyin|   [     b0000-    11efff] -> flags=0
+ta_keyin|   [    11f000-    128fff] -> flags=0
+ta_keyin|   [    129000-    134fff] -> flags=0
+ta_keyin|   [    139000-    154fff] -> flags=0
+ta_keyin|   [    155000-    161fff] -> flags=0
+ta_keyin|   [    162000-    16afff] -> flags=0
+ta_keyin|   [    16b000-    173fff] -> flags=0
+ta_keyin|   [    174000-    17cfff] -> flags=0
+ta_keyin|   [    17d000-    186fff] -> flags=0
+ta_keyin|   [    187000-    193fff] -> flags=0
+ta_keyin|   [    194000-    19ffff] -> flags=0
+ta_keyin|   [    1a5000-    20efff] -> flags=0
+ta_keyin|   [    20f000-    21afff] -> flags=0
+ta_keyin|   [    21b000-    224fff] -> flags=0
+ta_keyin|   [    225000-    22dfff] -> flags=0
+ta_keyin|   [    22e000-    236fff] -> flags=0
+ta_keyin|   [    23f000-    24ffff] -> flags=0
+ta_keyin|   [    250000-    258fff] -> flags=0
+ta_keyin|   [    25b000-    26ffff] -> flags=0
+ta_keyin|   [    270000-    279fff] -> flags=0
+ta_keyin|   [    27a000-    283fff] -> flags=0
+ta_keyin|   [    28d000-    29ffff] -> flags=0
+ta_keyin|   [    2a0000-    2a9fff] -> flags=0
+ta_keyin|   [    2b5000-    2c7fff] -> flags=0
+ta_keyin|   [    2c8000-    2dafff] -> flags=0
+ta_keyin|   [    2e5000-    34ffff] -> flags=0
+ta_keyin|   [    380000-    3c4fff] -> flags=0
+ta_keyin|   [    400000-    419fff] -> flags=0
+ta_keyin|   [    41a000-    618fff] -> flags=0
+ta_keyin|   [    619000-    817fff] -> flags=0
+ta_keyin|  Region map:
+ta_keyin|   [      1000-      1fff] -> (offs=0, ds=101000, flags=2)
+ta_keyin|   [      2000-      2fff] -> (offs=268000, ds=101000, flags=2)
+ta_keyin|   [      3000-      3fff] -> (offs=b5000, ds=101000, flags=2)
+ta_keyin|   [      4000-      4fff] -> (offs=15d000, ds=101000, flags=2)
+ta_keyin|   [      5000-      5fff] -> (offs=21d000, ds=101000, flags=2)
+ta_keyin|   [      6000-      6fff] -> (offs=0, ds=41c000, flags=0)
+ta_keyin|   [      7000-      7fff] -> (offs=279000, ds=101000, flags=2)
+ta_keyin|   [      8000-     12fff] -> (offs=0, ds=1c000, flags=1)
+ta_keyin|   [     13000-     13fff] -> (offs=27a000, ds=101000, flags=2)
+ta_keyin|   [     1b000-     1bfff] -> (offs=0, ds=1f000, flags=100)
+ta_keyin|   [     1c000-     20fff] -> (offs=2000, ds=101000, flags=3)
+ta_keyin|   [     28000-     28fff] -> (offs=7000, ds=101000, flags=2)
+ta_keyin|   [     29000-     2afff] -> (offs=7f000, ds=101000, flags=3)
+ta_keyin|   [     32000-     32fff] -> (offs=81000, ds=101000, flags=2)
+ta_keyin|   [     35000-     3ffff] -> (offs=9000, ds=101000, flags=3)
+ta_keyin|   [     48000-     48fff] -> (offs=14000, ds=101000, flags=2)
+ta_keyin|   [     49000-     4ffff] -> (offs=83000, ds=101000, flags=3)
+ta_keyin|   [     57000-     57fff] -> (offs=8a000, ds=101000, flags=2)
+ta_keyin|   [     58000-     59fff] -> (offs=8c000, ds=101000, flags=3)
+ta_keyin|   [     61000-     61fff] -> (offs=8e000, ds=101000, flags=2)
+ta_keyin|   [     62000-     64fff] -> (offs=9d000, ds=101000, flags=3)
+ta_keyin|   [     6c000-     6cfff] -> (offs=a0000, ds=101000, flags=2)
+ta_keyin|   [     6d000-     77fff] -> (offs=90000, ds=101000, flags=3)
+ta_keyin|   [     7f000-     7ffff] -> (offs=9b000, ds=101000, flags=2)
+ta_keyin|   [     80000-     81fff] -> (offs=a2000, ds=101000, flags=3)
+ta_keyin|   [     89000-     89fff] -> (offs=a4000, ds=101000, flags=2)
+ta_keyin|   [     8a000-     8bfff] -> (offs=a6000, ds=101000, flags=3)
+ta_keyin|   [     94000-     94fff] -> (offs=a8000, ds=101000, flags=2)
+ta_keyin|   [     95000-     96fff] -> (offs=aa000, ds=101000, flags=3)
+ta_keyin|   [     9e000-     9efff] -> (offs=ac000, ds=101000, flags=2)
+ta_keyin|   [     9f000-     a4fff] -> (offs=ae000, ds=101000, flags=3)
+ta_keyin|   [     ac000-     acfff] -> (offs=b4000, ds=101000, flags=2)
+ta_keyin|   [     b0000-     f5fff] -> (offs=16000, ds=101000, flags=3)
+ta_keyin|   [     fd000-    11efff] -> (offs=5c000, ds=101000, flags=2)
+ta_keyin|   [    11f000-    120fff] -> (offs=b7000, ds=101000, flags=3)
+ta_keyin|   [    128000-    128fff] -> (offs=b9000, ds=101000, flags=2)
+ta_keyin|   [    129000-    12bfff] -> (offs=134000, ds=101000, flags=3)
+ta_keyin|   [    134000-    134fff] -> (offs=137000, ds=101000, flags=2)
+ta_keyin|   [    139000-    146fff] -> (offs=bb000, ds=101000, flags=3)
+ta_keyin|   [    14f000-    14ffff] -> (offs=c9000, ds=101000, flags=2)
+ta_keyin|   [    150000-    154fff] -> (offs=ca000, ds=101000, flags=2)
+ta_keyin|   [    155000-    158fff] -> (offs=139000, ds=101000, flags=3)
+ta_keyin|   [    161000-    161fff] -> (offs=13d000, ds=101000, flags=2)
+ta_keyin|   [    162000-    162fff] -> (offs=13f000, ds=101000, flags=3)
+ta_keyin|   [    16a000-    16afff] -> (offs=140000, ds=101000, flags=2)
+ta_keyin|   [    16b000-    16bfff] -> (offs=142000, ds=101000, flags=3)
+ta_keyin|   [    173000-    173fff] -> (offs=143000, ds=101000, flags=2)
+ta_keyin|   [    174000-    174fff] -> (offs=145000, ds=101000, flags=3)
+ta_keyin|   [    17c000-    17cfff] -> (offs=146000, ds=101000, flags=2)
+ta_keyin|   [    17d000-    17efff] -> (offs=148000, ds=101000, flags=3)
+ta_keyin|   [    186000-    186fff] -> (offs=14a000, ds=101000, flags=2)
+ta_keyin|   [    187000-    18bfff] -> (offs=14c000, ds=101000, flags=3)
+ta_keyin|   [    193000-    193fff] -> (offs=151000, ds=101000, flags=2)
+ta_keyin|   [    194000-    196fff] -> (offs=153000, ds=101000, flags=3)
+ta_keyin|   [    19f000-    19ffff] -> (offs=156000, ds=101000, flags=2)
+ta_keyin|   [    1a5000-    1f2fff] -> (offs=d0000, ds=101000, flags=3)
+ta_keyin|   [    1fa000-    1fbfff] -> (offs=11e000, ds=101000, flags=2)
+ta_keyin|   [    1fc000-    20efff] -> (offs=120000, ds=101000, flags=2)
+ta_keyin|   [    20f000-    212fff] -> (offs=158000, ds=101000, flags=3)
+ta_keyin|   [    21a000-    21afff] -> (offs=15c000, ds=101000, flags=2)
+ta_keyin|   [    21b000-    21cfff] -> (offs=15f000, ds=101000, flags=3)
+ta_keyin|   [    224000-    224fff] -> (offs=161000, ds=101000, flags=2)
+ta_keyin|   [    225000-    225fff] -> (offs=163000, ds=101000, flags=3)
+ta_keyin|   [    22d000-    22dfff] -> (offs=164000, ds=101000, flags=2)
+ta_keyin|   [    22e000-    22efff] -> (offs=178000, ds=101000, flags=3)
+ta_keyin|   [    236000-    236fff] -> (offs=179000, ds=101000, flags=2)
+ta_keyin|   [    23f000-    24efff] -> (offs=166000, ds=101000, flags=3)
+ta_keyin|   [    24f000-    24ffff] -> (offs=176000, ds=101000, flags=2)
+ta_keyin|   [    250000-    250fff] -> (offs=18a000, ds=101000, flags=3)
+ta_keyin|   [    258000-    258fff] -> (offs=18b000, ds=101000, flags=2)
+ta_keyin|   [    25b000-    265fff] -> (offs=17b000, ds=101000, flags=3)
+ta_keyin|   [    26d000-    26dfff] -> (offs=186000, ds=101000, flags=2)
+ta_keyin|   [    26e000-    26ffff] -> (offs=187000, ds=101000, flags=2)
+ta_keyin|   [    270000-    271fff] -> (offs=18d000, ds=101000, flags=3)
+ta_keyin|   [    279000-    279fff] -> (offs=18f000, ds=101000, flags=2)
+ta_keyin|   [    27a000-    27bfff] -> (offs=1fd000, ds=101000, flags=3)
+ta_keyin|   [    283000-    283fff] -> (offs=1ff000, ds=101000, flags=2)
+ta_keyin|   [    28d000-    295fff] -> (offs=201000, ds=101000, flags=3)
+ta_keyin|   [    29d000-    29dfff] -> (offs=20a000, ds=101000, flags=2)
+ta_keyin|   [    29e000-    29ffff] -> (offs=20b000, ds=101000, flags=2)
+ta_keyin|   [    2a0000-    2a1fff] -> (offs=20e000, ds=101000, flags=3)
+ta_keyin|   [    2a9000-    2a9fff] -> (offs=210000, ds=101000, flags=2)
+ta_keyin|   [    2b5000-    2befff] -> (offs=212000, ds=101000, flags=3)
+ta_keyin|   [    2c7000-    2c7fff] -> (offs=21c000, ds=101000, flags=2)
+ta_keyin|   [    2c8000-    2d0fff] -> (offs=25d000, ds=101000, flags=3)
+ta_keyin|   [    2d9000-    2d9fff] -> (offs=266000, ds=101000, flags=2)
+ta_keyin|   [    2da000-    2dafff] -> (offs=267000, ds=101000, flags=2)
+ta_keyin|   [    2e5000-    34cfff] -> (offs=191000, ds=101000, flags=3)
+ta_keyin|   [    34d000-    34efff] -> (offs=1f9000, ds=101000, flags=2)
+ta_keyin|   [    34f000-    34ffff] -> (offs=1fb000, ds=101000, flags=2)
+ta_keyin|   [    350000-    35ffff] -> (offs=269000, ds=101000, flags=102)
+ta_keyin|   [    380000-    3acfff] -> (offs=21f000, ds=101000, flags=3)
+ta_keyin|   [    3b5000-    3b7fff] -> (offs=24c000, ds=101000, flags=2)
+ta_keyin|   [    3b8000-    3c4fff] -> (offs=24f000, ds=101000, flags=2)
+ta_keyin|   [    400000-    410fff] -> (offs=0, ds=20000, flags=1)
+ta_keyin|   [    418000-    419fff] -> (offs=0, ds=21000, flags=100)
+ta_keyin|   [    41b000-    618fff] -> (offs=0, ds=421000, flags=100)
+ta_keyin|   [    61a000-    817fff] -> (offs=0, ds=424000, flags=100)
+ta_keyin|   [  80000000-  80007fff] -> (offs=0, ds=1e000, flags=100)
+ta_keyin|   [  affff000-  afffffff] -> (offs=0, ds=5000, flags=4)
+ta_keyin|   [  b0000000-  b0016fff] -> (offs=0, ds=5000, flags=4)
+ta_keyin|   [  b0018000-  b001afff] -> (offs=0, ds=5000, flags=4)
+ta_keyin|   [  b0100000-  b013ffff] -> (offs=0, ds=5000, flags=4)
+ta_keyin|   [  b1000000-  b1007fff] -> (offs=0, ds=5000, flags=4)
+ta_keyin|   [  b3000000-  b3000fff] -> (offs=0, ds=5000, flags=4)
+ta_keyin|  00618e60 00618ee0 80007ff4 0026d3c4 80007ee8 0025e1e4 ******** ********
+ta_keyin|  ******** 00195e28 0019f0f8 0019f6b0 80007ee8 00618fa8 ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** 80007ff4 ******** ********
+ta_keyin|  ******** ******** 0026d3c4 0025e1e4 00010000 ******** 00618d8c 00010000
+ta_keyin|  0019f178 ******** ******** ******** 0025e1e4 0026d3c4 80007ff4 ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** 0000dead ******** ******** 00010000 b3000200 0000dead ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** 80007ff4 0026d3c4 80007ee8 0025e1e4 ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** ******** ******** ******** ******** ********
+ta_keyin|  ******** ******** ******** 0019f178 0019f178 ******** ******** ********
+ta_keyin|  00618fa8 001956d8 ******** 0019f178 00195ffc 0019f698 0019f178 0041974c
+ta_keyin|  ******** ******** ******** b3000600 b3000600 ******** ******** ********
+ta_keyin|  b3000600 b3000600 ******** ******** ******** 00013000 ******** ********
+

@@ -1,0 +1,19 @@
+services:
+  ghidrathon-headless:
+    image: ghidrathon:latest
+    platform: linux # Native arch
+    build:
+      context: .
+      target: ghidrathon
+    volumes:
+      - ./data:/data:rw
+      - ./src:/src:rw
+    deploy:
+      replicas: 0 # Don't start ghidrathon by default
+  tipi:
+    extends: # Use env, volumes, capabilities from above service
+      service: ghidrathon-headless
+    volumes:
+      - ./docker/tipi-entrypoint.sh:/tipi-entrypoint.sh:ro
+      - ./docker/tipi-test-entrypoint.sh:/tipi-test-entrypoint.sh:ro
+      - ./test:/test:ro

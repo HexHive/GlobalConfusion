@@ -1,0 +1,7 @@
+-i https://pypi.org/simple
+pyyaml==6.0
+graphviz==0.20.1
+ipdb
+ipython
+networkx
+pygraphviz

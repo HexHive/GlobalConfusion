@@ -1,0 +1,30 @@
+ta_keyin| Exception: State:
+ta_keyin|  r0=00000000  r1=deadbeef  r2=00818028  r3=00352e88
+ta_keyin|  r4=00012798  r5=00010cdc  r6=80007e00  r7=00000000
+ta_keyin|  r8=00818028  r9=00352e88 r10=80007d5c r11=80007ff4
+ta_keyin| r12=0026d3c4  sp=80007d60  lr=000098f9  pc=deadbeee
+ta_keyin| psr=60000030 err=00010000 pfa=deadbeee
+ta_keyin| Codes_around PC[0xdeadbece,0xdeadbf0e]:
+ta_keyin| current task:
+ta_keyin| [ 0] 00000028 deadbece 00000000 00000000
+ta_keyin| [ 4] deadbeee 80007d60 deadbf0e 00195f58
+ta_keyin| [ 8] 00195e0c 001960b8 deadbece 00195e7c
+ta_keyin| [12] 0026d3c4
+ta_keyin| Codes around PC[0x1951c0,0x195200]:
+ta_keyin| 0x001951c0 : 0xe59f9284
+ta_keyin| 0x001951c4 : 0xe1a0100a
+ta_keyin| 0x001951c8 : 0xe59f8280
+ta_keyin| 0x001951cc : 0xe59f7280
+ta_keyin| 0x001951d0 : 0xe08f9009
+ta_keyin| 0x001951d4 : 0xe08f8008
+ta_keyin| 0x001951d8 : 0xe08f7007
+ta_keyin| 0x001951dc : 0xe1510004
+ta_keyin| 0x001951e0 : 0xe49a2004    <-PC
+ta_keyin| 0x001951e4 : 0xe1a00007
+ta_keyin| 0x001951e8 : 0x11a03009
+ta_keyin| 0x001951ec : 0x01a03008
+ta_keyin| 0x001951f0 : 0xebfffdcd
+ta_keyin| 0x001951f4 : 0xe156000a
+ta_keyin| 0x001951f8 : 0xe1a0100a
+ta_keyin| 0x001951fc : 0x8afffff6
+
