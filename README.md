@@ -83,6 +83,26 @@ the GP type-confusion bug.
 | 030c0000000000000000000000000000.tlbin | Kinibi | x |  |  | /fw/vivo/y73/220517/tas/030c0000000000000000000000000000.tlbin |
 | 07150000000000000000000000000000.tlbin | Kinibi | x |  |  | /fw/vivo/y20g/210427/tas/07150000000000000000000000000000.tlbin |
 
+You can use these commands to reproduce this table:
+
+```
+make run-tipi TARGET=vtrust.elf TEE=qsee TIMEOUT=600
+make run-tipi TARGET=eid.mbn TEE=qsee TIMEOUT=600
+make run-tipi TARGET=secstor2.elf TEE=qsee TIMEOUT=600
+make run-tipi TARGET=tz_kg.elf TEE=qsee TIMEOUT=600
+make run-tipi TARGET=alipay.elf TEE=qsee TIMEOUT=600
+make run-tipi TARGET=eseservi.elf TEE=qsee TIMEOUT=600
+make run-tipi TARGET=655a4b46-cd77-11ea-aafbf382a6988e7b.ta.elf TEE=mitee TIMEOUT=600
+make run-tipi TARGET=e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta.elf TEE=mitee TIMEOUT=600
+make run-tipi TARGET=14b0aad8-c011-4a3f-b66aca8d0e66f273.ta.elf TEE=mitee TIMEOUT=600
+make run-tipi TARGET=05060000000000000000000000009578.tabin TEE=vivo_kinibi TIMEOUT=600
+make run-tipi TARGET=a2d1038963f25c97be80d40f2d498582.tabin TEE=vivo_kinibi TIMEOUT=600
+make run-tipi TARGET=09010000000000000000000000000000.tabin TEE=vivo_kinibi TIMEOUT=600
+make run-tipi TARGET=05120000000000000000000000000001.tlbin TEE=vivo_kinibi TIMEOUT=600
+make run-tipi TARGET=030c0000000000000000000000000000.tlbin TEE=vivo_kinibi TIMEOUT=600
+make run-tipi TARGET=07150000000000000000000000000000.tlbin TEE=vivo_kinibi TIMEOUT=600
+```
+
 
 ## Ground-Truth Type-Confusion Detection
 
@@ -99,3 +119,18 @@ the GP type-confusion bug.
 | 00000000-0000-0000-0000-53454d655345.elf | TEEGris | x |
 | task_storage | Trusted Core | x |
 
+
+You can use these commands to reproduce this table:
+
+```
+make run-tipi TARGET=d78d338b1ac349e09f65f4efe179739d.ta
+make run-tipi TARGET=00000000-0000-0000-0000-000000000046.elf
+make run-tipi TARGET=00000000-0000-0000-0000-000048444350.elf
+make run-tipi TARGET=00000000-0000-0000-0000-0000534b504d.elf
+make run-tipi TARGET=00000000-0000-0000-0000-00575644524d.elf
+make run-tipi TARGET=00000000-0000-0000-0000-42494f535542.elf
+make run-tipi TARGET=00000000-0000-0000-0000-46494e474502.elf
+make run-tipi TARGET=00000000-0000-0000-0000-5345435f4652.elf
+make run-tipi TARGET=00000000-0000-0000-0000-53454d655345.elf
+make run-tipi TARGET=task_storage
+```
