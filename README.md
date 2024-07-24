@@ -86,12 +86,12 @@ the GP type-confusion bug.
 You can use these commands to reproduce this table:
 
 ```
-make run-tipi TARGET=vtrust.elf TEE=qsee TIMEOUT=600
-make run-tipi TARGET=eid.mbn TEE=qsee TIMEOUT=600
-make run-tipi TARGET=secstor2.elf TEE=qsee TIMEOUT=600
-make run-tipi TARGET=tz_kg.elf TEE=qsee TIMEOUT=600
-make run-tipi TARGET=alipay.elf TEE=qsee TIMEOUT=600
-make run-tipi TARGET=eseservi.elf TEE=qsee TIMEOUT=600
+make run-tipi TARGET=vtrust.elf TEE=qualcomm TIMEOUT=600
+make run-tipi TARGET=eid.mbn TEE=qualcomm TIMEOUT=600
+make run-tipi TARGET=secstor2.elf TEE=qualcomm TIMEOUT=600
+make run-tipi TARGET=tz_kg.elf TEE=qualcomm TIMEOUT=600
+make run-tipi TARGET=alipay.elf TEE=qualcomm TIMEOUT=600
+make run-tipi TARGET=eseservi.elf TEE=qualcomm TIMEOUT=600
 make run-tipi TARGET=655a4b46-cd77-11ea-aafbf382a6988e7b.ta.elf TEE=mitee TIMEOUT=600
 make run-tipi TARGET=e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta.elf TEE=mitee TIMEOUT=600
 make run-tipi TARGET=14b0aad8-c011-4a3f-b66aca8d0e66f273.ta.elf TEE=mitee TIMEOUT=600
