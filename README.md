@@ -1,9 +1,9 @@
 
 # GlobalConfusion: TrustZone Trusted Application 0-Days by Design
 
-<a href="http://hexhive.epfl.ch/publications/files/24SEC1.pdf"> <img align="right" width="350" src="imgs/paper.png"> </a>
+<a href="https://hexhive.epfl.ch/publications/files/24SEC4.pdf"> <img align="right" width="350" src="imgs/paper.png"> </a>
 
-This repository contains the artifacts for our USENIX SEC'24 paper <a href="http://hexhive.epfl.ch/publications/files/24SEC1.pdf">GlobalConfusion: TrustZone Trusted Application 0-Days by Design</a>.
+This repository contains the artifacts for our USENIX SEC'24 paper <a href="https://hexhive.epfl.ch/publications/files/24SEC4.pdf">GlobalConfusion: TrustZone Trusted Application 0-Days by Design</a>.
 
 If you use our artifacts or want to refer to "GlobalConfusion" in a scientific publication, we would appreciate a citation using this Bibtex entry: 
 
