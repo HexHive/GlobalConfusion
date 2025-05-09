@@ -1,0 +1,9 @@
+[TZ_LOG] ta_keyin| [TEE] [KI_TA] INFO: [TEE] TA_InvokeCommandEntryPoint, commandID: 0x1
+...
+[TZ_LOG] ta_keyin| [TEE] [KI_TA] INFO: [TEE] TA_DestroyEntryPointm
+[TZ_LOG] ta_keyin| Exception: State:
+[TZ_LOG] ta_keyin|  r0=0000dead  r1=00000001  r2=00000000  r3=00000000
+[TZ_LOG] ta_keyin|  r4=deadbeef  r5=deadbeef  r6=deadbeef  r7=deadbeef
+[TZ_LOG] ta_keyin|  r8=deadbeef  r9=deadbeef r10=deadbeef r11=80007ff4
+[TZ_LOG] ta_keyin| r12=0026d3c4  sp=80007ee8  lr=0025e1e4  pc=deadbeee
+[TZ_LOG] ta_keyin| psr=60000030 err=00010000 pfa=deadbeee
